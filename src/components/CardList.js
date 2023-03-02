@@ -1,10 +1,11 @@
 import Card from './Card';
-import { robots } from '../data/robots';
 
-const CardList = () => {
+const CardList = ({robotData}) => {
     return (
         <ul>
-            {robots.map(item=>(
+            {!robotData || robotData.length === 0 ?
+            <h2 className='empty'>No robofriends available</h2> :
+            robotData.map(item=>(
                 <Card
                     key={item.id}
                     id={item.id}
