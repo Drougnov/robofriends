@@ -16,10 +16,9 @@ const App =()=> {
   return(
     <>
       <header>
-        <h1>Robofriends</h1>
-        <input type="text" onChange={onSearchChange} placeholder="Search robots..."/>
+        <h1 className="header-logo">Robofriends</h1>
+        <input className="header-input" type="text" onChange={onSearchChange} placeholder="Search robots..." autoFocus />
       </header>
-      <hr/>
       <main>
         <CardList robotData={robotData} />
       </main>
