@@ -2,9 +2,12 @@
 
 This project is a React refresher project from [ZeroToMastery's Next.js course](https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/). The project displays a list of robot friends that can be searched and filtered based on user input.
 
+![Robofriends's screenshot](./public/design.png)
+
 ## Table of Contents
 
 - [Features](#features)
+- [Link](#link)
 - [Technologies Used](#technologies-used)
 - [Improvements](#improvements)
 - [Author](#author)
@@ -15,6 +18,10 @@ This project is a React refresher project from [ZeroToMastery's Next.js course](
 - Allows users to search and filter the list of robot friends based on their name
 - Shows a "no robots found" message if the search results are empty
 - Shows a "loading" message while waiting for the API to fetch data
+
+## Link
+
+[https://Drougnov.github.io/robofriends](https://Drougnov.github.io/robofriends)
 
 ## Technologies USed
 
